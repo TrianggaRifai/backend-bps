@@ -11,7 +11,7 @@ return [
     'allowed_methods' => ['*'],
     
     // Gunakan environment variable untuk URL frontend
-    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:5173')],
+    'allowed_origins' => ['https://frontend-bps.vercel.app'],
 
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
